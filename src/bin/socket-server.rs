@@ -1,4 +1,4 @@
-use common_library_rust::socket::server::Server;
+use common_library::socket::server::Server;
 use ctrlc;
 use std::env;
 use std::io::prelude::*;

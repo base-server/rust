@@ -1,6 +1,6 @@
 [package]
-name = "base-server-rust"
-version = "0.1.0"
+name = "base-server"
+version = "0.0.2"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -12,5 +12,5 @@ opt-level = 0
 opt-level = 3
 
 [dependencies]
-common-library-rust = { git = "https://github.com/heaven-chp/common-library-rust.git", tag = "v0.0.1"  }
+common-library = { git = "https://github.com/common-library/rust.git", tag = "v0.0.2" }
 ctrlc = "3.4"

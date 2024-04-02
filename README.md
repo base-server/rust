@@ -1,4 +1,4 @@
-# base-server-rust
+# Base Server for Rust
 
 ## Build
  - debug
